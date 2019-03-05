@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DeviceManager">
+      <UniqueIdentifier>{5fd85f1f-ffec-4ea5-8cfd-7375b01ea816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{c4a04f58-7bcf-403a-bbea-2f90ad1247f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Usb">
+      <UniqueIdentifier>{89defdec-bcc3-45d2-a507-999c33ccacb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Usb\UsbCmd">
+      <UniqueIdentifier>{adb71398-8118-4427-892a-ceeee3938d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Elf">
+      <UniqueIdentifier>{f1b2f8b8-efe8-4006-ba8a-653f65cf9ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{c6255f78-ea92-4853-8b15-417989975ce1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DeviceManager\DeviceManager.h">
+      <Filter>DeviceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceManager\USBDeviceMonitor.h">
+      <Filter>DeviceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Usb\ScsiAcc.h">
+      <Filter>Usb</Filter>
+    </ClInclude>
+    <ClInclude Include="Usb\UsbCmd\UsbFunction.h">
+      <Filter>Usb\UsbCmd</Filter>
+    </ClInclude>
+    <ClInclude Include="Usb\UsbCmd\SpiDriver.h">
+      <Filter>Usb\UsbCmd</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Elf\pof.h">
+      <Filter>Data\Elf</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Elf\pofunc.h">
+      <Filter>Data\Elf</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\AX327X.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\Export.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\stdafx.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\targetver.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\AX32XXDevice.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\IspData.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DeviceManager\DeviceManager.cpp">
+      <Filter>DeviceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceManager\USBDeviceMonitor.cpp">
+      <Filter>DeviceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Usb\ScsiAcc.cpp">
+      <Filter>Usb</Filter>
+    </ClCompile>
+    <ClCompile Include="Usb\UsbCmd\UsbFunction.cpp">
+      <Filter>Usb\UsbCmd</Filter>
+    </ClCompile>
+    <ClCompile Include="Usb\UsbCmd\SpiDriver.cpp">
+      <Filter>Usb\UsbCmd</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Elf\pof.cpp">
+      <Filter>Data\Elf</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Elf\Elf.cpp">
+      <Filter>Data\Elf</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Elf\omfy.cpp">
+      <Filter>Data\Elf</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\AX327X.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc\stdafx.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc\dllmain.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc\Export.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\AX32XXDevice.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

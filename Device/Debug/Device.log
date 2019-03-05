@@ -1,0 +1,85 @@
+﻿生成启动时间为 2019/3/4 15:43:29。
+     1>项目“E:\qingchunxu\code\vs\44\Device\Device.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\software\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\qingchunxu\code\vs\44\Device\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DEVICE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"Misc\stdafx.h" /Fp"Debug\Device.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Data\AX327X.cpp
+         AX327X.cpp
+     1>e:\qingchunxu\code\vs\44\device\data\elf\pof.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\qingchunxu\code\vs\44\device\data\ax327x.cpp(595): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\data\ax327x.cpp(969): warning C4101: “buf”: 未引用的局部变量
+     1>e:\qingchunxu\code\vs\44\device\data\ax327x.cpp(1078): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\data\ax327x.cpp(1091): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\data\ax327x.cpp(1104): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\data\ax327x.cpp(1117): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\data\ax327x.cpp(1211): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\data\ax327x.cpp(1204): warning C4101: “bSuccess”: 未引用的局部变量
+     1>e:\qingchunxu\code\vs\44\device\data\ax327x.cpp(1193): warning C4101: “len”: 未引用的局部变量
+     1>e:\qingchunxu\code\vs\44\device\data\ax327x.cpp(1306): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\data\ax327x.cpp(1317): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\data\ax327x.cpp(1840): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\data\ax327x.cpp(1853): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\data\ax327x.cpp(823): warning C4715: “AX327X::DownBinCode”: 不是所有的控件路径都返回值
+         E:\software\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\qingchunxu\code\vs\44\Device\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DEVICE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"Misc\stdafx.h" /Fp"Debug\Device.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Data\Elf\Elf.cpp Data\Elf\omfy.cpp Data\Elf\pof.cpp Data\AX32XXDevice.cpp DeviceManager\DeviceManager.cpp test\test.cpp Usb\ScsiAcc.cpp Usb\UsbCmd\SpiDriver.cpp Usb\UsbCmd\UsbFunction.cpp Misc\dllmain.cpp Misc\Export.cpp Misc\stdafx.cpp
+         stdafx.cpp
+         Export.cpp
+         dllmain.cpp
+         UsbFunction.cpp
+         SpiDriver.cpp
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(45): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(93): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(148): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(200): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(219): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(235): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(258): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(284): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(313): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(346): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(375): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(379): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(389): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(418): warning C4101: “crc_len_s”: 未引用的局部变量
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(418): warning C4101: “crc_len_f”: 未引用的局部变量
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(486): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(551): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(576): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(601): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(626): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(653): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(659): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(664): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\qingchunxu\code\vs\44\device\usb\usbcmd\spidriver.cpp(677): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+         ScsiAcc.cpp
+         test.cpp
+         DeviceManager.cpp
+         AX32XXDevice.cpp
+     1>e:\qingchunxu\code\vs\44\device\data\elf\pof.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         pof.cpp
+     1>e:\qingchunxu\code\vs\44\device\data\elf\pof.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         omfy.cpp
+     1>e:\qingchunxu\code\vs\44\device\data\elf\omfy.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Elf.cpp
+     1>e:\qingchunxu\code\vs\44\device\data\elf\elf.cpp(238): warning C4018: “<”: 有符号/无符号不匹配
+         E:\software\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\qingchunxu\code\vs\44\Device\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DEVICE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DeviceManager\USBDeviceMonitor.cpp
+         USBDeviceMonitor.cpp
+       Link:
+         E:\software\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\qingchunxu\code\vs\44\Debug\Device.dll" /INCREMENTAL /NOLOGO Setupapi.lib Shlwapi.lib Cfgmgr32.lib rpcrt4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\qingchunxu\code\vs\44\Debug\Device.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\qingchunxu\code\vs\44\Debug\Device.lib" /MACHINE:X86 /DLL Debug\AX327X.obj
+         Debug\Elf.obj
+         Debug\omfy.obj
+         Debug\pof.obj
+         Debug\AX32XXDevice.obj
+         Debug\DeviceManager.obj
+         Debug\USBDeviceMonitor.obj
+         Debug\test.obj
+         Debug\ScsiAcc.obj
+         Debug\SpiDriver.obj
+         Debug\UsbFunction.obj
+         Debug\dllmain.obj
+         Debug\Export.obj
+         Debug\stdafx.obj
+            正在创建库 E:\qingchunxu\code\vs\44\Debug\Device.lib 和对象 E:\qingchunxu\code\vs\44\Debug\Device.exp
+         Device.vcxproj -> E:\qingchunxu\code\vs\44\Debug\Device.dll
+     1>已完成生成项目“E:\qingchunxu\code\vs\44\Device\Device.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.54
